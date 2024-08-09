@@ -1,0 +1,93 @@
+@import url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.livspace.com%2Fin%2Fmagazine%2Fbest-luxury-kitchen-designs&psig=AOvVaw1sd_8w3bdysZ4UGSfdbw0c&ust=1723303135320000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKCb482a6IcDFQAAAAAdAAAAABAE'); 
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+section{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60),rgba(0, 0, 0, 0.60) ), url("images.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    width: 85%;
+    margin: auto;
+}
+nav{
+    height: 80px;
+}
+nav h1{
+    float: left;
+    line-height: 80px;
+    font-size: 35px;
+    font-size: inline;
+    color: #eb2020;
+}
+
+nav ul{
+    float: right;
+    line-height: 80px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 7px 8px;
+}
+
+nav ul li a:hover{
+    background-color: #eb204f;
+    transition: 0.5s ease;
+}
+
+nav ul li .active{
+    background-color: #eb7620;
+}
+
+.article{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(25vh);
+}
+
+.article h1{
+    font-size: 36px;
+    color: #fff;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.article p{
+    font-size: 18px;
+    color: yellow;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+.article .btn{
+    color: #fff;
+    padding: 12px 25px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #f15048;
+}
+
+.article .btn:hover{
+    background-color: #4399fa;
+    transition: 0.5s ease;
+}
